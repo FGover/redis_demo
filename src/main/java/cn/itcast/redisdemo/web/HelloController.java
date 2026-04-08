@@ -22,4 +22,5 @@ public class HelloController {
         redisTemplate.opsForValue().set(key, value);
         return "success";
     }
+
 }
